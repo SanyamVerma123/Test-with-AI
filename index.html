@@ -3,31 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Calculator</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Stock Analysis Tool</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="calculator">
-        <input type="text" id="display" readonly>
-        <div class="buttons">
-            <button onclick="appendNumber('7')">7</button>
-            <button onclick="appendNumber('8')">8</button>
-            <button onclick="appendNumber('9')">9</button>
-            <button onclick="appendOperator('+')">+</button>
-            <button onclick="appendNumber('4')">4</button>
-            <button onclick="appendNumber('5')">5</button>
-            <button onclick="appendNumber('6')">6</button>
-            <button onclick="appendOperator('-')">-</button>
-            <button onclick="appendNumber('1')">1</button>
-            <button onclick="appendNumber('2')">2</button>
-            <button onclick="appendNumber('3')">3</button>
-            <button onclick="appendOperator('*')">×</button>
-            <button onclick="appendNumber('0')">0</button>
-            <button onclick="clearDisplay()">C</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="appendOperator('/')">/</button>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <header>
+        <nav>
+            <div class="logo">📈 Stock Analysis Tool</div>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#docs">Documentation</a></li>
+                <li><a href="https://github.com/sanyamverma123/Test-with-AI" class="github-btn">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Professional Stock Analysis Tool</h1>
+            <p>Advanced technical analysis and real-time market insights</p>
+            <a href="https://share.streamlit.io/sanyamverma123/Test-with-AI/app.py" class="cta-btn">Launch App</a>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Technical Analysis</h3>
+                    <p>RSI, MACD, Bollinger Bands, and more</p>
+                </div>
+                <!-- Add more feature cards -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Stock Analysis Tool</p>
+    </footer>
 </body>
 </html>

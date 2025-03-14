@@ -1,6 +1,33 @@
-# Project Title
+# Modern Calculator
 
-A brief description of what this project does and who it's for.
+A sleek and modern calculator web application with a clean user interface and smooth animations.
+
+## Features
+
+- Clean and modern design with glassmorphism effect
+- Responsive layout
+- Smooth hover and click animations
+- Color-coded operation buttons
+- Large, easy-to-read display
+
+## Styling
+
+The calculator features:
+- Gradient background
+- Glass-like calculator body with blur effect
+- Shadow effects for depth
+- Interactive button animations
+- Color scheme:
+  - Blue (#60a5fa) for operation buttons
+  - Red (#ef4444) for clear button
+  - Green (#10b981) for equals button
+  - White background for number buttons
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript (to be implemented)
 
 ## Installation
 
